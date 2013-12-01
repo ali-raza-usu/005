@@ -1,4 +1,4 @@
-package aspects.rr;
+package aspects.ows;
 import org.apache.log4j.Logger;
 
 import application.Client;
@@ -9,6 +9,9 @@ public aspect SMInitialization extends baseaspects.communication.Initialization 
 
 	@Override
 	public void defineMappng() {
+		// TODO Auto-generated method stub
+		
 	}
+
 }
  

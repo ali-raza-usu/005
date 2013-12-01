@@ -19,9 +19,9 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
      	Message msg =  (Message)Encoder.decode(_multiStepJP.getBytes());
      	String logString = null;
      	if(_multiStepJP.getConversation() == null)
-     		logString = "MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation()+"] at time "+ sendTime;
+     		logString = "Multistep : MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation()+"] at time "+ sendTime;
      	else
-     		logString = "MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation().getId().toString()+"] at time "+ sendTime;
+     		logString = "Multistep: MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation().getId().toString()+"] at time "+ sendTime;
 		logger.debug(logString);		
 		System.out.println(logString);
 	}
@@ -30,7 +30,7 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
 		
 		String endTime = getCurrentTime();	
      	Message msg =  (Message)Encoder.decode(_multiStepJP.getBytes());
-     	String logString = "MS Receiver: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation().getId().toString()+"] at time "+ endTime;
+     	String logString = " Multistep: MS Receiver: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation().getId().toString()+"] at time "+ endTime;
 		logger.debug(logString);		
 		System.out.println(logString);
 	}

@@ -17,9 +17,7 @@ import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import utilities.Encoder;
-import utilities.Message;
-import utilities.TranslationRequestMessage;
-import utilities.TranslationResponseMessage;
+import utilities.TranslationMessage;
 
 public class Server extends Thread {
 
@@ -57,7 +55,7 @@ public class Server extends Thread {
 				ssc.register(sckt_manager, SelectionKey.OP_ACCEPT);
 				_logger.debug("Channel Establishd");
 
-				TranslationRequestMessage msg = null;
+				TranslationMessage msg = null;
 
 				while (true) {
 					sckt_manager.select();
@@ -84,7 +82,7 @@ public class Server extends Thread {
 								buffer.flip();
 								System.out.println("server SENDING BYTES OF LENGTH "+ buffer.remaining());
 								// New Input Message
-								msg = (TranslationRequestMessage) convertBufferToMessage(buffer);
+								msg = (TranslationMessage) convertBufferToMessage(buffer);
 								_logger.debug("Received " + msg.getData1());
 								if (msg.getData1().equals("quit")) {
 									_logger.debug("Now disconnecting the client");
@@ -96,14 +94,14 @@ public class Server extends Thread {
 							Thread.sleep(num * 800);
 							int result = LevenshteinDistance(msg.getData1(),
 									msg.getData2());
-							TranslationResponseMessage resp_msg = new TranslationResponseMessage(
+							msg = new TranslationMessage(
 									"Levenshtein Distance between string : "
 											+ msg.getData1() + " and string "
 											+ msg.getData2() + " is " + result);
 							buffer.clear();
-							buffer = ByteBuffer.wrap(Encoder.encode(resp_msg));
+							buffer = ByteBuffer.wrap(Encoder.encode(msg));
 							client.write(buffer);
-							_logger.debug("Sending " + resp_msg.getResponse());
+							_logger.debug("Sending " + msg.getResponse());
 							if (msg.getData1().equals("quit")
 									|| msg.getData2().equals("quit")) {
 								client.close();
@@ -130,11 +128,11 @@ public class Server extends Thread {
 		}
 	}
 
-	private Message convertBufferToMessage(ByteBuffer buffer) {
-		Message message = null;
+	private TranslationMessage convertBufferToMessage(ByteBuffer buffer) {
+		TranslationMessage message = null;
 		byte[] bytes = new byte[buffer.remaining()];
 		buffer.get(bytes);
-		message = (Message) Encoder.decode(bytes);
+		message = (TranslationMessage) Encoder.decode(bytes);
 		buffer.clear();
 		buffer = ByteBuffer.wrap(Encoder.encode(message));
 		return message;

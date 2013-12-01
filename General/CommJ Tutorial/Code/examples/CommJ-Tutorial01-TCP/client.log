@@ -1,0 +1,3 @@
+20:53:22,441 DEBUG Client.java: 42 - Connection is accepted by server
+20:53:26,310 DEBUG Client.java: 66 - Sending strings 'rrwr' and 'wrewr'
+20:53:28,754 DEBUG Client.java: 81 - Received Levenshtein Distance between string : rrwr and string wrewr is 2

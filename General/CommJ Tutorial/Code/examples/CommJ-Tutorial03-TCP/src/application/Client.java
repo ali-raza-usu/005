@@ -13,9 +13,7 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Logger;
 
 import utilities.Encoder;
-import utilities.Message;
-import utilities.TranslationRequestMessage;
-import utilities.TranslationResponseMessage;
+import utilities.TranslationMessage;
 
 public class Client extends Thread {
 	Logger _logger = Logger.getLogger(Client.class);
@@ -59,9 +57,9 @@ public class Client extends Thread {
 									new InputStreamReader(System.in));
 							_data2 = bufReader.readLine();
 
-							TranslationRequestMessage msg = null;
+							TranslationMessage msg = null;
 							if (_data1 != null && _data2 != null) {
-								msg = new TranslationRequestMessage(_data1, _data2);
+								msg = new TranslationMessage(_data1, _data2);
 								buffer = ByteBuffer.wrap(Encoder.encode(msg));
 								System.out.println("SENDING BYTES OF LENGTH "+ buffer.remaining());
 								sc.write(buffer);
@@ -78,9 +76,9 @@ public class Client extends Thread {
 							readBuf.clear();
 							while (sc.read(readBuf) <= 0);
 							readBuf.flip();
-							TranslationResponseMessage msg_resp = (TranslationResponseMessage) convertBufferToMessage(readBuf);
-							System.out.println("Received " + msg_resp.getResponse());
-							_logger.debug("Received " + msg_resp.getResponse());
+							msg = (TranslationMessage) convertBufferToMessage(readBuf);
+							System.out.println("Received " + msg.getResponse());
+							_logger.debug("Received " + msg.getResponse());
 						}
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -119,11 +117,11 @@ public class Client extends Thread {
 		_client.start();
 	}
 
-	private Message convertBufferToMessage(ByteBuffer buffer) {
-		Message message = null;
+	private TranslationMessage convertBufferToMessage(ByteBuffer buffer) {
+		TranslationMessage message = null;
 		byte[] bytes = new byte[buffer.remaining()];
 		buffer.get(bytes);
-		message = (Message) Encoder.decode(bytes);
+		message = (TranslationMessage) Encoder.decode(bytes);
 		buffer.clear();
 		buffer = ByteBuffer.wrap(Encoder.encode(message));
 		return message;

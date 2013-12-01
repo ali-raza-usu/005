@@ -1,10 +1,46 @@
-03:47:25,987 DEBUG LoggingTimeAspectMS.aj: 25 - Multistep: MS Sender: Server - Message TranslationRequestMessage [ID = c1a57ae4-7167-4702-a085-73b77fa922f6] at time 03:47:25
-03:47:25,988 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
-03:47:25,988 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is Initial
-03:47:25,988 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
-03:47:25,991 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationRequestMessage
-03:47:26,810 DEBUG LoggingTimeAspectMS.aj: 25 - Multistep: MS Sender: Client - Message TranslationResponseMessage [ID = c1a57ae4-7167-4702-a085-73b77fa922f6] at time 03:47:26
-03:47:26,810 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
-03:47:26,811 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is Initial
-03:47:26,811 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
-03:47:26,814 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationResponseMessage
+21:07:19,426 DEBUG Initialization.aj: 35 - className application.Client
+21:07:19,451 DEBUG Initialization.aj: 35 - className application.Client
+21:07:21,224 DEBUG MessageJoinPointTracker.aj: 60 - remaining bytes received are are 1408
+21:07:21,238 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:21,238 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:21,241 DEBUG StateMachine.java: 216 - In Creat State Machine method
+21:07:21,241 DEBUG StateMachine.java: 217 - In Creat State Machine method with Protocol universe.Protocol@206f5f03
+21:07:21,242 DEBUG StateMachine.java: 218 - In Creat State Machine method with Protocol.Name TimeLogger
+21:07:21,242 DEBUG StateMachine.java: 219 - role Server
+21:07:21,242 DEBUG StateMachine.java: 220 - conversation universe.Conversation@74b9121c
+21:07:21,243 DEBUG StateMachine.java: 222 - creating state machine for type class aspects.ms.Server_SM
+21:07:21,245 DEBUG LoggingTimeAspectMS.aj: 28 - Multistep: MS Sender: Server - Message TranslationMessage [ID = 2eb5f376-329e-4036-999c-40a8026d8349] at time 21:07:21
+21:07:21,245 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
+21:07:21,245 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is ServerRcvdRequest
+21:07:21,246 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
+21:07:21,247 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationMessage
+21:07:22,852 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:22,852 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:22,853 DEBUG MessageJoinPointTracker.aj: 158 - remaining bytes sent are 868
+21:07:22,853 DEBUG MultistepConversationAspect.aj: 96 - S : before transition current state is ServerRcvdRequest
+21:07:22,854 DEBUG MultistepConversationAspect.aj: 99 - S : after transition current state is ServerSentResponse
+21:07:22,854 DEBUG MultistepConversationAspect.aj: 100 - S : is final state  true21:07:22,858 DEBUG MessageJoinPointTracker.aj: 60 - remaining bytes received are are 1237
+21:07:22,859 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is ClientSendRequest
+21:07:22,859 DEBUG MultistepConversationAspect.aj: 99 - R : after transition curre21:07:53,530 DEBUG MessageJoinPointTracker.aj: 60 - remaining bytes received are are 1541
+21:07:53,533 DEBUG StateMachine.java: 216 - In Creat State Machine method
+21:07:53,534 DEBUG StateMachine.java: 217 - In Creat State Machine method with Protocol universe.Protocol@206f5f03
+21:07:53,534 DEBUG StateMachine.java: 218 - In Creat State Machine method with Protocol.Name TimeLogger
+21:07:53,534 DEBUG StateMachine.java: 219 - role Server
+21:07:53,535 DEBUG StateMachine.java: 220 - conversation universe.Conversation@efd025d
+21:07:53,535 DEBUG StateMachine.java: 222 - creating state machine for type class aspects.ms.Server_SM
+21:07:53,538 DEBUG LoggingTimeAspectMS.aj: 28 - Multistep: MS Sender: Server - Message TranslationMessage [ID = ef585249-356b-4238-a4e7-db980d73bdad] at time 21:07:53
+21:07:53,538 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is Initial
+21:07:53,538 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is ServerRcvdRequest
+21:07:53,538 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  false
+21:07:53,540 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationMessage
+21:07:55,943 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:55,943 DEBUG Initialization.aj: 41 - Configuring the Message: Role, Protocol, Conversation
+21:07:55,944 DEBUG MessageJoinPointTracker.aj: 158 - remaining bytes sent are 1002
+21:07:55,944 DEBUG MultistepConversationAspect.aj: 96 - S : before transition current state is ServerRcvdRequest
+21:07:55,944 DEBUG MultistepConversationAspect.aj: 99 - S : after transition current state is ServerSentResponse
+21:07:55,945 DEBUG MultistepConversationAspect.aj: 100 - S : is final state  true21:07:55,948 DEBUG MessageJoinPointTracker.aj: 60 - remaining bytes received are are 1371
+21:07:55,949 DEBUG MultistepConversationAspect.aj: 96 - R : before transition current state is ClientSendRequest
+21:07:55,949 DEBUG MultistepConversationAspect.aj: 99 - R : after transition current state is ClientRcvdResponse
+21:07:55,949 DEBUG MultistepConversationAspect.aj: 100 - R : is final state  true
+21:07:55,950 DEBUG MultistepConversationAspect.aj: 101 -  : current message is class utilities.TranslationMessage
+21:07:55,951 DEBUG LoggingTimeAspectMS.aj: 39 -  Multistep: MS Receiver: Client - Message TranslationMessage [ID = ef585249-356b-4238-a4e7-db980d73bdad] at time 21:07:55

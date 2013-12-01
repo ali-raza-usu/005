@@ -19,7 +19,7 @@ public aspect LoggingTimeAspectOWS extends OneWaySendAspect{
 		Object around(SendEventJP _sendEventJp): ConversationBegin(_sendEventJp){
 			String sendTime = getCurrentTime();
 	     	Message msg =  (Message)Encoder.decode(_sendEventJp.getBytes());
-	     	String logString = "Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_sendEventJp.getConversation().getId().toString()+"] at time "+ sendTime;
+	     	String logString = "OneWaySend: Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_sendEventJp.getConversation().getId().toString()+"] at time "+ sendTime;
 			logger.debug(logString);		
 			System.out.println(logString);
 	     	return proceed(_sendEventJp);
