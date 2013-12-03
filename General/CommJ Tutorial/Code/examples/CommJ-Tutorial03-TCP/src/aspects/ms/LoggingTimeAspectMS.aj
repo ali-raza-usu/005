@@ -25,9 +25,8 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
      		logString = "Multistep : MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation()+"] at time "+ sendTime;
      	else
      		logString = "Multistep: MS Sender: "+getTargetClass() + " - Message "+ msg.getClass().getSimpleName() + " [ID = " +_multiStepJP.getConversation().getId().toString()+"] at time "+ sendTime;
-		//hi
-     	logger.debug(logString);		
-		System.out.println(logString);
+	logger.debug(logString);		
+	System.out.println(logString);
 	}
 
 	after(MultistepConversationJP _multiStepJP): ConversationEnd(_multiStepJP){
@@ -40,13 +39,24 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
      	logger.debug(logString);		
 		System.out.println(logString );
 		
-		System.out.println("================================");
-     	DifferenceTime(sendTime, endTime, getTargetClass());
-     	System.out.println("================================");
-     	
-		
-	
+	System.out.println("===== This is to compute the time needed for the conversation ======");
+	// based on the sendTime and endTime values, compute the different time.
+	DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+	Date startingTime=new Date();
+	Date endingTime=new Date();
+	long differenceTime = 0;
+	try
+	{
+		startingTime = dateFormat.parse(sendTime);
+		endingTime = dateFormat.parse(endTime);	
+		differenceTime= endingTime.getTime() - startingTime.getTime(); // the different time
+	        System.out.println(" The Time needed to this conversation is " + differenceTime/1000 + "  seconds.");
 	}
+	catch (ParseException e) 
+	{
+		e.printStackTrace();
+	}
+     }
 
 	private String getCurrentTime(){
 		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
@@ -60,25 +70,7 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
 		return classes[classes.length - 1];
 	}
 	
-	private void DifferenceTime(String sTime, String eTime, String target) {
-		
-		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-		Date Stime=new Date();
-		Date Etime=new Date();
-		String difTime="";
-		try {
-			 Stime = dateFormat.parse(sTime);
-			 Etime = dateFormat.parse(eTime);	
-			 long diffTime= Etime.getTime()-Stime.getTime();
-			 System.out.println(" The Time for the"+ target + ": (sec) " + diffTime/1000);
-			 //difTime= dateFormat.format(diffTime);
-			
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
-	}
 	
 
 }
