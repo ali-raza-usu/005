@@ -40,7 +40,7 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
 		System.out.println(logString );
 		
 	System.out.println("===== This is to compute the time needed for the conversation ======");
-	// based on the sendTime and endTime values, compute the different time.
+	// based on the sendTime and endTime values, compute the difference time.
 	DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 	Date startingTime=new Date();
 	Date endingTime=new Date();
@@ -50,7 +50,7 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
 		startingTime = dateFormat.parse(sendTime);
 		endingTime = dateFormat.parse(endTime);	
 		differenceTime= endingTime.getTime() - startingTime.getTime(); // the different time
-	        System.out.println(" The Time needed to this conversation is " + differenceTime/1000 + "  seconds.");
+	        System.out.println(" The Time needed for this conversation is " + differenceTime/1000 + "  seconds.");
 	}
 	catch (ParseException e) 
 	{
