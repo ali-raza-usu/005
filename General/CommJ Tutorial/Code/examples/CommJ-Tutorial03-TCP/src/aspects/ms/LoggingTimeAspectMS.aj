@@ -49,8 +49,8 @@ public aspect LoggingTimeAspectMS extends MultistepConversationAspect {
 	{
 		startingTime = dateFormat.parse(sendTime);
 		endingTime = dateFormat.parse(endTime);	
-		differenceTime= endingTime.getTime() - startingTime.getTime(); // the different time
-	        System.out.println(" The Time needed for this conversation is " + differenceTime/1000 + "  seconds.");
+		differenceTime= endingTime.getTime() - startingTime.getTime(); // the difference time
+	        System.out.println("The Time needed for this conversation is " + differenceTime/1000 + "  seconds.");
 	}
 	catch (ParseException e) 
 	{
