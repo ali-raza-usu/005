@@ -1,0 +1,6 @@
+Write an Houly Journal
+- Write down your thoughts for design, implementation, etc.
+- Possible choices and your preferred choices
+- Possible problems you have faces
+- Any suggestions
+- You comments, what was good thing/bads things about commj/example
