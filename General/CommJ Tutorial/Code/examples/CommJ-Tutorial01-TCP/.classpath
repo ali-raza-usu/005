@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="aspects/ows/|aspects/rr/|aspects/owr/|aspects/con/initiator/|aspects/connection/listener/|aspects/connection/initiator/" kind="src" path="src"/>
+	<classpathentry excluding="aspects/ows/|aspects/rr/|aspects/owr/|aspects/con/initiator/|aspects/connection/listener/|aspects/ms/|aspects/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="src" path="/CommJ.library">
 		<attributes>
@@ -9,5 +9,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/3rd-party"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/log4j-1.2.15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 
 public class Encoder {
 	static Logger logger = Logger.getLogger(Encoder.class);
+	
 	public static byte[] encode(IMessage _data)
 	{
 		try{

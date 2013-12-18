@@ -31,8 +31,6 @@ public class SendEventJP extends CommunicationEventJP {
 		this.sendJP = _sendJP;
 	}
 
-	
-	
 	public void setBytes(byte[] _bytes)
 	{
 		super.setBytes(_bytes);	
@@ -45,6 +43,4 @@ public class SendEventJP extends CommunicationEventJP {
 	public void setSocket(Socket _socket) {
 		this.socket = _socket;
 	}
-
-	
 }

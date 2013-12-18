@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewAspectWizardPage">
+		<item value="false" key="create_main"/>
+		<item value="true" key="create_unimplemented_meth"/>
+		<item value="true" key="create_unimplemented_pc"/>
+	</section>
+	<section name="AspectJBuildPropertyPage">
+		<item value="0" key="pageIndex"/>
+	</section>
+</section>

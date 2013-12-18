@@ -16,6 +16,10 @@ import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 
+import aspects.encyption.KMClient;
+import aspects.encyption.KeyRequest;
+import aspects.encyption.KeyResponse;
+import aspects.encyption.SharedKey;
 import utilities.Encoder;
 import utilities.TranslationMessage;
 
@@ -25,7 +29,7 @@ public class Server extends Thread {
 	SelectionKey selkey = null;
 	Selector sckt_manager = null;
 	ByteBuffer buffer = ByteBuffer.allocateDirect(2048);
-
+//	SharedKey sharedKey;
 	public Server() {
 	}
 
@@ -56,7 +60,9 @@ public class Server extends Thread {
 				_logger.debug("Channel Establishd");
 
 				TranslationMessage msg = null;
-
+				
+				//This code is about how the KMClient can communicate with the KeyManager to get the Key
+				
 				while (true) {
 					sckt_manager.select();
 					for (Iterator<SelectionKey> i = sckt_manager.selectedKeys()

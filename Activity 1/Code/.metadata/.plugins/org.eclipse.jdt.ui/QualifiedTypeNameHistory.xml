@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="aspects.encyption.KeyManager"/>
+<fullyQualifiedTypeName name="aspects.encyption.SharedKey"/>
+<fullyQualifiedTypeName name="utilities.IMessage"/>
+<fullyQualifiedTypeName name="baseaspects.communication.OneWaySendAspect"/>
+<fullyQualifiedTypeName name="aspects.encyption.KeyResponse"/>
+<fullyQualifiedTypeName name="interactive.Client"/>
+<fullyQualifiedTypeName name="aspects.encyption.KMClient"/>
+<fullyQualifiedTypeName name="aspects.encyption.Encryption"/>
+<fullyQualifiedTypeName name="aspects.encyption.EncryptionAspect"/>
+</qualifiedTypeNameHistroy>

@@ -1,5 +1,6 @@
 package baseaspects.communication;
 
+
 import java.nio.ByteBuffer;
 
 import joinpoints.communication.ReceiveEventJP;
@@ -28,7 +29,8 @@ private Logger logger = Logger.getLogger(OneWaySendAspect.class);
 			proceed(_sendJp);
 	}
 
-
-	public void Begin(SendEventJP _receiveJp){		
+	public void Begin(SendEventJP _receiveJp)
+	{
+		
 	}
 }

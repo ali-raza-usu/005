@@ -1,0 +1,6 @@
+package aspects.encyption;
+
+public aspect DecryptionAspect extends OneWayReceiveAspect
+{
+
+}

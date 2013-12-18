@@ -1,4 +1,4 @@
-package aspects.con.initiator;
+package aspects.connection.initiator;
 import application.Client;
 import application.Server;
 import org.apache.log4j.Logger;

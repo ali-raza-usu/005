@@ -14,6 +14,13 @@ import org.apache.log4j.Logger;
 
 import utilities.Encoder;
 import utilities.TranslationMessage;
+import aspects.encyption.Encryption;
+import aspects.encyption.KMClient;
+import aspects.encyption.KeyManager;
+import aspects.encyption.KeyRequest;
+import aspects.encyption.KeyResponse;
+import aspects.encyption.SharedKey;
+import aspects.encyption.*;
 
 public class Client extends Thread {
 	Logger _logger = Logger.getLogger(Client.class);
@@ -22,7 +29,7 @@ public class Client extends Thread {
 	ByteBuffer buffer = ByteBuffer.allocateDirect(2048);
 	ByteBuffer readBuf = ByteBuffer.allocateDirect(2048);
 	BufferedReader bufReader = null;
-
+	
 	public Client() {
 	}
 
@@ -40,27 +47,28 @@ public class Client extends Thread {
 			while (!sc.finishConnect())
 				; // wait until the connection gets established
 			_logger.debug("Connection is accepted by server");
-
+			
+			
+			
 			while (true) {
 				if (sc.isConnected()) {
 					try {
 						if (sc != null) {
-							System.out
-									.println("===============Levenshtein Translator======================");
+							System.out.println("===============Levenshtein Translator======================");
 							System.out.print("Enter String 1 : ");
-							bufReader = new BufferedReader(
-									new InputStreamReader(System.in));
+							bufReader = new BufferedReader(new InputStreamReader(System.in));
 							_data1 = bufReader.readLine();
-
+							
 							System.out.print("Enter String 2 : ");
-							bufReader = new BufferedReader(
-									new InputStreamReader(System.in));
+							bufReader = new BufferedReader(new InputStreamReader(System.in));
 							_data2 = bufReader.readLine();
 
 							TranslationMessage msg = null;
 							if (_data1 != null && _data2 != null) {
 								msg = new TranslationMessage(_data1, _data2);
-								buffer = ByteBuffer.wrap(Encoder.encode(msg));
+								
+								
+								buffer = ByteBuffer.wrap(Encoder.encode(msg));// here is the encoding of the message
 								sc.write(buffer);
 								_logger.debug("Sending strings '"
 										+ msg.getData1() + "' and '"

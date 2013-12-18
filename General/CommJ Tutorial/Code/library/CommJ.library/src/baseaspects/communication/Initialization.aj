@@ -20,7 +20,7 @@ public abstract  aspect Initialization {
 	public static Role role = null;
 		
 	private pointcut ConfigureMessage(IMessage _message) : execution(void utilities.IMessage.setMessage(..)) && target(_message);
-	public  pointcut ConfigureProtocolRole() :execution(void *.main(..));
+	public  pointcut ConfigureProtocolRole() : execution(void *.main(..));
 	public  pointcut DeserializeMessage(byte[] bytes) :call(IMessage MessageJoinPointTracker.ReadMessage(..)) && args(bytes);
 	
 	
