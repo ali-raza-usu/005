@@ -1,8 +1,0 @@
-package aspects.encyption;
-
-import baseaspects.communication.OneWayReceiveAspect;
-
-public aspect DecryptionAspect extends OneWayReceiveAspect
-{
-
-}

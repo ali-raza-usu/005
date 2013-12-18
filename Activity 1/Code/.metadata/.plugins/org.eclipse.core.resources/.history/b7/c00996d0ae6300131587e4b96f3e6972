@@ -1,5 +1,0 @@
-package aspects.encyption;
-
-public aspect DecryptionAspect {
-
-}
