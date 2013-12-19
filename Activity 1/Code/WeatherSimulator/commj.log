@@ -1,0 +1,3 @@
+17:35:48,764 DEBUG Receiver.java: 207 -  setting protocol null
+17:35:48,766 DEBUG Receiver.java: 209 -  setting role null
+17:35:48,766 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4ab9ba02

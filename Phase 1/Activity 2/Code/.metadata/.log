@@ -1,0 +1,1352 @@
+!SESSION 2013-12-18 17:49:33.419 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-18 17:49:52.108
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-18 17:49:52.109
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Quentin Mayo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.151
+!MESSAGE Compiler configuration for project CommJ.library doesn't know previous state, so assuming EVERYTHING has changed.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.213
+!MESSAGE ===========================================================================================
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.213
+!MESSAGE Build kind = FULLBUILD
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.245
+!MESSAGE Project=CommJ.library, kind of build requested=Full AspectJ compilation
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.251
+!MESSAGE Timer event: 1ms: Flush included source file cache
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.251
+!MESSAGE Timer event: 0ms: Check delta
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.254
+!MESSAGE Builder: Tidied output folder(s), removed class files and derived resources
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.264
+!MESSAGE AJC: Starting new build for project CommJ.library
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.268
+!MESSAGE Classpath = C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\bin;C:/Program Files/Java/jdk1.7.0_25/jre/lib/resources.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jsse.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jce.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/charsets.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfr.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/access-bridge-64.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/dnsns.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/jaccess.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/localedata.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunec.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunjce_provider.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunmscapi.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/zipfs.jar;C:/Users/Quentin Mayo/Desktop/Eclipse/plugins/org.aspectj.runtime_1.8.0.20131018120000.jar;C:/Users/Quentin Mayo/Desktop/Eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar;C:/Users/Quentin Mayo/Desktop/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/commons-lang3-3.1.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/junit-4.6.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/log4j-1.2.15.jar;
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.269
+!MESSAGE Timer event: 55ms: Pre compile
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.329
+!MESSAGE Compiler configuration for project CommJ.library has been read by compiler.  Resetting.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.329
+!MESSAGE      Configuration was [PROJECTSOURCEFILES_CHANGED, JAVAOPTIONS_CHANGED, ASPECTPATH_CHANGED, CLASSPATH_CHANGED, INPATH_CHANGED, NONSTANDARDOPTIONS_CHANGED, OUTJAR_CHANGED, PROJECTSOURCERESOURCES_CHANGED, OUTPUTDESTINATIONS_CHANGED, INJARS_CHANGED]
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.330
+!MESSAGE Resetting list of modified source files.  Was null
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:26.429
+!MESSAGE AJC: compiling source files
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.220
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\Initialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.227
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\ConnectionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.242
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\RRConversationAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.246
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\MessageAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.267
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingInitiatorTime.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.295
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\MultistepConversationAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.331
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\OneWayReceiveAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.355
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingListenerTime.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.403
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\InitiatorJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.417
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\CompleteConnectionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.433
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\EncryptionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.457
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingTimeAspectMS.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.460
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\SMInitialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.473
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\DecryptionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.495
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\ListenerJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.498
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\CommJInitialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.557
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\MessageJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:27.562
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\OneWaySendAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.059
+!MESSAGE AJC: woven aspect baseaspects.communication.Initialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\Initialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.060
+!MESSAGE AJC: woven aspect baseaspects.connection.ConnectionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\ConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.149
+!MESSAGE AJC: woven aspect baseaspects.communication.RRConversationAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\RRConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.150
+!MESSAGE AJC: woven aspect baseaspects.communication.MessageAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\MessageAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.248
+!MESSAGE AJC: woven aspect aspects.encyption.LoggingInitiatorTime (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingInitiatorTime.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.487
+!MESSAGE AJC: woven aspect baseaspects.communication.MultistepConversationAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\MultistepConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.505
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWayReceiveAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\OneWayReceiveAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.506
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWayReceiveAspect$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\OneWayReceiveAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.556
+!MESSAGE AJC: woven aspect aspects.encyption.LoggingListenerTime (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingListenerTime.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.702
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.722
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.723
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.723
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure3 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.742
+!MESSAGE AJC: woven aspect aspects.encyption.EncryptionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\EncryptionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.772
+!MESSAGE AJC: woven aspect aspects.ms.LoggingTimeAspectMS (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\LoggingTimeAspectMS.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.773
+!MESSAGE AJC: woven aspect aspects.encyption.SMInitialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\SMInitialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.782
+!MESSAGE AJC: woven aspect aspects.encyption.DecryptionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\DecryptionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.810
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.812
+!MESSAGE AJC: woven aspect baseaspects.communication.CommJInitialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\CommJInitialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.912
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.920
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWaySendAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\baseaspects\communication\OneWaySendAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.939
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Event.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.946
+!MESSAGE AJC: woven class universe.Event (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Event.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.948
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationReceiveEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.949
+!MESSAGE AJC: woven class universe.CommunicationReceiveEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationReceiveEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.952
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Server_SM.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.956
+!MESSAGE AJC: woven class aspects.encyption.Server_SM (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Server_SM.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:28.987
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\interactive\Server.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.050
+!MESSAGE AJC: woven class interactive.Server (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\interactive\Server.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.056
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\Transition.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.060
+!MESSAGE AJC: woven class utilities.statemachine.Transition (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\Transition.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.065
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Session.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.069
+!MESSAGE AJC: woven class utilities.Session (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Session.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.071
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\OneWayMulticast.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.072
+!MESSAGE AJC: woven class patterns.OneWayMulticast (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\OneWayMulticast.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.075
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Process.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.076
+!MESSAGE AJC: woven class universe.Process (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Process.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.083
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Message.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.093
+!MESSAGE AJC: woven class utilities.Message (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Message.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.095
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\ExceptionThrownEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.096
+!MESSAGE AJC: woven class universe.ExceptionThrownEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\ExceptionThrownEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.100
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyRequest.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.101
+!MESSAGE AJC: woven class aspects.encyption.KeyRequest (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyRequest.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.105
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\ChannelJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.109
+!MESSAGE AJC: woven class joinpoints.connection.ChannelJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\ChannelJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.114
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\PatternManager.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.116
+!MESSAGE AJC: woven class universe.PatternManager (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\PatternManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.118
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\PrimaryObject.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.119
+!MESSAGE AJC: woven class universe.PrimaryObject (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\PrimaryObject.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.130
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\interactive\Client.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.163
+!MESSAGE AJC: woven class interactive.Client (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\interactive\Client.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.165
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\TimeSpan.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.166
+!MESSAGE AJC: woven class utilities.TimeSpan (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\TimeSpan.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.170
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\RequestReplyConversationJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.173
+!MESSAGE AJC: woven class joinpoints.communication.RequestReplyConversationJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\RequestReplyConversationJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.178
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\CloseEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.182
+!MESSAGE AJC: woven class joinpoints.connection.CloseEventJP$Status (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\CloseEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.184
+!MESSAGE AJC: woven class joinpoints.connection.CloseEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\CloseEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.188
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\MessageType.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.189
+!MESSAGE AJC: woven class universe.MessageType (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\MessageType.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.192
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.194
+!MESSAGE AJC: woven class universe.CommunicationEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.196
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\IStateMachine.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.197
+!MESSAGE AJC: woven class utilities.statemachine.IStateMachine (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\IStateMachine.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.198
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\OtherEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.199
+!MESSAGE AJC: woven class universe.OtherEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\OtherEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.203
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Encoder.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.208
+!MESSAGE AJC: woven class utilities.Encoder (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Encoder.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.213
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\CommunicationJoinPointRegistry.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.216
+!MESSAGE AJC: woven class utilities.CommunicationJoinPointRegistry (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\CommunicationJoinPointRegistry.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.218
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Node.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.220
+!MESSAGE AJC: woven class universe.Node (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Node.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.222
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Role.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.223
+!MESSAGE AJC: woven class universe.Role (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Role.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.229
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KMClient.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.238
+!MESSAGE AJC: woven class aspects.encyption.KMClient (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KMClient.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.241
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\SendEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.243
+!MESSAGE AJC: woven class joinpoints.communication.SendEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\SendEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.245
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessageFactory.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.246
+!MESSAGE AJC: woven class utilities.IMessageFactory (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessageFactory.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.248
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\Multistep.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.249
+!MESSAGE AJC: woven class patterns.Multistep (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\Multistep.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.251
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyResponse.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.253
+!MESSAGE AJC: woven class aspects.encyption.KeyResponse (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyResponse.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.257
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Protocol.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.260
+!MESSAGE AJC: woven class universe.Protocol (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Protocol.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.263
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\ReceiveEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.266
+!MESSAGE AJC: woven class joinpoints.communication.ReceiveEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\ReceiveEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.270
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\State.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.273
+!MESSAGE AJC: woven class utilities.statemachine.State (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\State.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.277
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\ProtocolRole.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.279
+!MESSAGE AJC: woven class universe.ProtocolRole (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\ProtocolRole.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.286
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Conversation.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.321
+!MESSAGE AJC: woven class universe.Conversation (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Conversation.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.334
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Encryption.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.340
+!MESSAGE AJC: woven class aspects.encyption.Encryption (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Encryption.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.349
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Constants.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.351
+!MESSAGE AJC: woven class utilities.Constants (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\Constants.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.356
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationSendEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.358
+!MESSAGE AJC: woven class universe.CommunicationSendEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationSendEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.359
+!MESSAGE AJC: woven class universe.CommunicationSendEvent$Task (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationSendEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.363
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Timestamp.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.373
+!MESSAGE AJC: woven class universe.Timestamp (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Timestamp.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.378
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\ConnectEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.386
+!MESSAGE AJC: woven class joinpoints.connection.ConnectEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\ConnectEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.392
+!MESSAGE AJC: woven class joinpoints.connection.ConnectEventJP$Status (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\connection\ConnectEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.404
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyManager.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.445
+!MESSAGE AJC: woven class aspects.encyption.KeyManager (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.448
+!MESSAGE AJC: woven class aspects.encyption.KeyManagerThread (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\KeyManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.453
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Message.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.456
+!MESSAGE AJC: woven class universe.Message (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Message.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.460
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationThread.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.462
+!MESSAGE AJC: woven class universe.CommunicationThread (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationThread.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.464
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\RequestReply.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.465
+!MESSAGE AJC: woven class patterns.RequestReply (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\RequestReply.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.483
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\StateMachine.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.498
+!MESSAGE AJC: woven class utilities.statemachine.StateMachine (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\statemachine\StateMachine.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.502
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\ConnectionJoinPointRegistry.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.505
+!MESSAGE AJC: woven class utilities.ConnectionJoinPointRegistry (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\ConnectionJoinPointRegistry.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.508
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\CommunicationPattern.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.510
+!MESSAGE AJC: woven class patterns.CommunicationPattern (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\patterns\CommunicationPattern.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.514
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationChannel.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.516
+!MESSAGE AJC: woven class universe.CommunicationChannel (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\CommunicationChannel.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.518
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessageExt.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.519
+!MESSAGE AJC: woven class utilities.IMessageExt (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessageExt.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.523
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\MultistepConversationJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.526
+!MESSAGE AJC: woven class joinpoints.communication.MultistepConversationJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\MultistepConversationJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.532
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\TranslationMessage.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.535
+!MESSAGE AJC: woven class utilities.TranslationMessage (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\TranslationMessage.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.538
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Client_SM.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.540
+!MESSAGE AJC: woven class aspects.encyption.Client_SM (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\Client_SM.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.542
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessage.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.544
+!MESSAGE AJC: woven class utilities.IMessage (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\utilities\IMessage.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.550
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\CommunicationEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.554
+!MESSAGE AJC: woven class joinpoints.communication.CommunicationEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\joinpoints\communication\CommunicationEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.556
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Pattern.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.557
+!MESSAGE AJC: woven class universe.Pattern (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\universe\Pattern.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.559
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\SharedKey.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.561
+!MESSAGE AJC: woven class aspects.encyption.SharedKey (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\CommJ.library\src\aspects\encyption\SharedKey.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.566
+!MESSAGE AJC: Build finished. Was full build: true
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.566
+!MESSAGE Timer event: 3297ms: Total time spent in AJDE
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.566
+!MESSAGE Timer event: 0ms: Refresh after build
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:29.619
+!MESSAGE Timer event: 3406ms: Total time spent in AJBuilder.build()
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.125
+!MESSAGE Compiler configuration for project WeatherSimulator doesn't know previous state, so assuming EVERYTHING has changed.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.128
+!MESSAGE ===========================================================================================
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.129
+!MESSAGE Build kind = FULLBUILD
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.129
+!MESSAGE Project=WeatherSimulator, kind of build requested=Full AspectJ compilation
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.131
+!MESSAGE Timer event: 0ms: Flush included source file cache
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.132
+!MESSAGE Timer event: 0ms: Check delta
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.132
+!MESSAGE Builder: Tidied output folder(s), removed class files and derived resources
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.136
+!MESSAGE AJC: Starting new build for project WeatherSimulator
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.137
+!MESSAGE Classpath = C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\bin;C:/Program Files/Java/jdk1.7.0_25/jre/lib/resources.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jsse.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jce.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/charsets.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfr.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/access-bridge-64.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/dnsns.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/jaccess.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/localedata.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunec.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunjce_provider.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/sunmscapi.jar;C:/Program Files/Java/jdk1.7.0_25/jre/lib/ext/zipfs.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/commons-lang3-3.1.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/junit-4.6.jar;C:/Users/Quentin Mayo/Desktop/CommJ-Tutorial01-TCP/General/third-party/log4j-1.2.15.jar;C:/Users/Quentin Mayo/Desktop/Eclipse/plugins/org.aspectj.runtime_1.8.0.20131018120000.jar;
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.137
+!MESSAGE Timer event: 9ms: Pre compile
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.149
+!MESSAGE Compiler configuration for project WeatherSimulator has been read by compiler.  Resetting.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.149
+!MESSAGE      Configuration was [PROJECTSOURCEFILES_CHANGED, JAVAOPTIONS_CHANGED, ASPECTPATH_CHANGED, CLASSPATH_CHANGED, INPATH_CHANGED, NONSTANDARDOPTIONS_CHANGED, OUTJAR_CHANGED, PROJECTSOURCERESOURCES_CHANGED, OUTPUTDESTINATIONS_CHANGED, INJARS_CHANGED]
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.150
+!MESSAGE Resetting list of modified source files.  Was null
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.245
+!MESSAGE AJC: compiling source files
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.416
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\VersionControlAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.424
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\MultistepConversationAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.429
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.431
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\CommJInitialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.433
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\SMInitialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.438
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TurnaroundMLLoggingAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.453
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.471
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.473
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\OneWayReceiveAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.476
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TotalTurnAroundTimeMonitor.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.486
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingTimeAspectMS.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.494
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.496
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\ConnectionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.502
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\Initialization.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.504
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\connection\ListenerTimeAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.508
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\EncryptionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.512
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\DecryptionAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.514
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\connection\InitiatorTimeAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.515
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\MessageAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.519
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingInitiatorTime.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.523
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\RRConversationAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.525
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\OneWaySendAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.530
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\MyAppPerformanceMonitor.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.534
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingListenerTime.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.538
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TurnaroundLoggingAspect.aj
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.617
+!MESSAGE AJC: woven aspect communication.VersionControlAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\VersionControlAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.633
+!MESSAGE AJC: woven aspect baseaspects.communication.MultistepConversationAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\MultistepConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.645
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.645
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.645
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure3 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.645
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure5 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.646
+!MESSAGE AJC: woven aspect baseaspects.connection.CompleteConnectionAspect$AjcClosure7 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\CompleteConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.647
+!MESSAGE AJC: woven aspect baseaspects.communication.CommJInitialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\CommJInitialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.649
+!MESSAGE AJC: woven aspect aspects.encyption.SMInitialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\SMInitialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.653
+!MESSAGE AJC: woven aspect communication.TurnaroundMLLoggingAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TurnaroundMLLoggingAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.672
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.673
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.673
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure3 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.673
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure5 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.673
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure7 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.674
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure9 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.674
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure11 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.674
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure13 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.674
+!MESSAGE AJC: woven aspect joinpointracker.InitiatorJoinPointTracker$AjcClosure15 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\InitiatorJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.722
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.723
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure17 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.723
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure19 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.723
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure21 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.723
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure27 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.724
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure31 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.724
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure33 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.724
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure35 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.724
+!MESSAGE AJC: woven aspect joinpointracker.MessageJoinPointTracker$AjcClosure41 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\MessageJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.727
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWayReceiveAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\OneWayReceiveAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.727
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWayReceiveAspect$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\OneWayReceiveAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.731
+!MESSAGE AJC: woven aspect communication.TotalTurnAroundTimeMonitor (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TotalTurnAroundTimeMonitor.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.743
+!MESSAGE AJC: woven aspect aspects.ms.LoggingTimeAspectMS (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingTimeAspectMS.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.754
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.755
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.755
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure3 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.755
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure5 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.755
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure7 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.756
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure9 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.756
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure11 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.756
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure13 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.756
+!MESSAGE AJC: woven aspect joinpointracker.ListenerJoinPointTracker$AjcClosure15 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpointracker\ListenerJoinPointTracker.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.757
+!MESSAGE AJC: woven aspect baseaspects.connection.ConnectionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\connection\ConnectionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.763
+!MESSAGE AJC: woven aspect baseaspects.communication.Initialization (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\Initialization.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.765
+!MESSAGE AJC: woven aspect connection.ListenerTimeAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\connection\ListenerTimeAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.771
+!MESSAGE AJC: woven aspect aspects.encyption.EncryptionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\EncryptionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.775
+!MESSAGE AJC: woven aspect aspects.encyption.DecryptionAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\DecryptionAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.776
+!MESSAGE AJC: woven aspect connection.InitiatorTimeAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\connection\InitiatorTimeAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.777
+!MESSAGE AJC: woven aspect baseaspects.communication.MessageAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\MessageAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.781
+!MESSAGE AJC: woven aspect aspects.encyption.LoggingInitiatorTime (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingInitiatorTime.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.788
+!MESSAGE AJC: woven aspect baseaspects.communication.RRConversationAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\RRConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.788
+!MESSAGE AJC: woven aspect baseaspects.communication.RRConversationAspect$AjcClosure1 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\RRConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.789
+!MESSAGE AJC: woven aspect baseaspects.communication.RRConversationAspect$AjcClosure3 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\RRConversationAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.792
+!MESSAGE AJC: woven aspect baseaspects.communication.OneWaySendAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\baseaspects\communication\OneWaySendAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.797
+!MESSAGE AJC: woven aspect communication.MyAppPerformanceMonitor (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\MyAppPerformanceMonitor.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.800
+!MESSAGE AJC: woven aspect aspects.encyption.LoggingListenerTime (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\LoggingListenerTime.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.804
+!MESSAGE AJC: woven aspect communication.TurnaroundLoggingAspect (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\TurnaroundLoggingAspect.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.838
+!MESSAGE AJC: woven class communication.Stats (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\communication\MyAppPerformanceMonitor.aj)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.845
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KMClient.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.853
+!MESSAGE AJC: woven class aspects.encyption.KMClient (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KMClient.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.856
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Server_SM.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.858
+!MESSAGE AJC: woven class aspects.encyption.Server_SM (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Server_SM.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.864
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Message.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.870
+!MESSAGE AJC: woven class utilities.Message (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Message.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.874
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Message.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.877
+!MESSAGE AJC: woven class universe.Message (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Message.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.881
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationSendEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.882
+!MESSAGE AJC: woven class universe.CommunicationSendEvent$Task (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationSendEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.884
+!MESSAGE AJC: woven class universe.CommunicationSendEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationSendEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.898
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\Receiver.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.904
+!MESSAGE AJC: woven class simulation.communication.Receiver$PacketLapse (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\Receiver.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.920
+!MESSAGE AJC: woven class simulation.communication.Receiver (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\Receiver.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.922
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\PrimaryObject.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.923
+!MESSAGE AJC: woven class universe.PrimaryObject (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\PrimaryObject.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.928
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\TranslationMessage.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.930
+!MESSAGE AJC: woven class utilities.TranslationMessage (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\TranslationMessage.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.936
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Conversation.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.939
+!MESSAGE AJC: woven class universe.Conversation (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Conversation.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.941
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationReceiveEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.942
+!MESSAGE AJC: woven class universe.CommunicationReceiveEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationReceiveEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.946
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\ConnectEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.949
+!MESSAGE AJC: woven class joinpoints.connection.ConnectEventJP$Status (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\ConnectEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.952
+!MESSAGE AJC: woven class joinpoints.connection.ConnectEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\ConnectEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.963
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyManager.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.966
+!MESSAGE AJC: woven class aspects.encyption.KeyManagerThread (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.972
+!MESSAGE AJC: woven class aspects.encyption.KeyManager (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.976
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\ConnectionJoinPointRegistry.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.979
+!MESSAGE AJC: woven class utilities.ConnectionJoinPointRegistry (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\ConnectionJoinPointRegistry.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.981
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\Multistep.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.982
+!MESSAGE AJC: woven class patterns.Multistep (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\Multistep.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.985
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\SendEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.987
+!MESSAGE AJC: woven class joinpoints.communication.SendEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\SendEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.989
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\RequestReply.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.990
+!MESSAGE AJC: woven class patterns.RequestReply (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\RequestReply.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.996
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Constants.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:52.999
+!MESSAGE AJC: woven class utilities.Constants (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Constants.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.002
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationThread.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.004
+!MESSAGE AJC: woven class universe.CommunicationThread (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationThread.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.016
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\Transmitter_8815.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.043
+!MESSAGE AJC: woven class simulation.communication.Transmitter_8815 (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\Transmitter_8815.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.044
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\OneWayMulticast.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.045
+!MESSAGE AJC: woven class patterns.OneWayMulticast (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\OneWayMulticast.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.050
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\CommunicationEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.053
+!MESSAGE AJC: woven class joinpoints.communication.CommunicationEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\CommunicationEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.056
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyRequest.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.057
+!MESSAGE AJC: woven class aspects.encyption.KeyRequest (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyRequest.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.060
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\CommunicationJoinPointRegistry.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.062
+!MESSAGE AJC: woven class utilities.CommunicationJoinPointRegistry (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\CommunicationJoinPointRegistry.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.064
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessageFactory.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.065
+!MESSAGE AJC: woven class utilities.IMessageFactory (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessageFactory.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.067
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\SharedKey.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.068
+!MESSAGE AJC: woven class aspects.encyption.SharedKey (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\SharedKey.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.071
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Encoder.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.073
+!MESSAGE AJC: woven class utilities.Encoder (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Encoder.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.076
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\CommunicationPattern.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.077
+!MESSAGE AJC: woven class patterns.CommunicationPattern (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\patterns\CommunicationPattern.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.080
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\MultistepConversationJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.083
+!MESSAGE AJC: woven class joinpoints.communication.MultistepConversationJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\MultistepConversationJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.087
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Protocol.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.088
+!MESSAGE AJC: woven class universe.Protocol (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Protocol.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.103
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\StateMachine.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.115
+!MESSAGE AJC: woven class utilities.statemachine.StateMachine (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\StateMachine.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.118
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\CloseEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.121
+!MESSAGE AJC: woven class joinpoints.connection.CloseEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\CloseEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.122
+!MESSAGE AJC: woven class joinpoints.connection.CloseEventJP$Status (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\CloseEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.126
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationChannel.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.127
+!MESSAGE AJC: woven class universe.CommunicationChannel (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationChannel.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.130
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessageExt.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.131
+!MESSAGE AJC: woven class utilities.IMessageExt (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessageExt.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.134
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataRequest.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.135
+!MESSAGE AJC: woven class utilities.messages.WeatherDataRequest (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataRequest.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.137
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessage.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.139
+!MESSAGE AJC: woven class utilities.IMessage (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\IMessage.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.140
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Node.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.141
+!MESSAGE AJC: woven class universe.Node (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Node.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.144
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.146
+!MESSAGE AJC: woven class universe.CommunicationEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\CommunicationEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.149
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Event.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.151
+!MESSAGE AJC: woven class universe.Event (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Event.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.155
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\ChannelJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.157
+!MESSAGE AJC: woven class joinpoints.connection.ChannelJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\connection\ChannelJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.167
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\interactive\Client.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.182
+!MESSAGE AJC: woven class interactive.Client (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\interactive\Client.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.184
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\TimeSpan.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.185
+!MESSAGE AJC: woven class utilities.TimeSpan (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\TimeSpan.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.187
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Client_SM.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.188
+!MESSAGE AJC: woven class aspects.encyption.Client_SM (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Client_SM.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.203
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.206
+!MESSAGE AJC: woven class simulation.communication.Mast (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.207
+!MESSAGE AJC: woven class simulation.communication.WeatherStationSimulator$GenerationTask (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.207
+!MESSAGE AJC: woven class simulation.communication.Hygrometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.208
+!MESSAGE AJC: woven class simulation.communication.WindVane (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.209
+!MESSAGE AJC: woven class simulation.communication.UltrasonicSnowSensor (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.209
+!MESSAGE AJC: woven class simulation.communication.Pyranometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.210
+!MESSAGE AJC: woven class simulation.communication.Ceilometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.211
+!MESSAGE AJC: woven class simulation.communication.Thermometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.211
+!MESSAGE AJC: woven class simulation.communication.RainGauge (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.212
+!MESSAGE AJC: woven class simulation.communication.VisibilitySensor (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.216
+!MESSAGE AJC: woven class simulation.communication.WeatherStationSimulator (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.217
+!MESSAGE AJC: woven class simulation.communication.Barometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.218
+!MESSAGE AJC: woven class simulation.communication.Mast$Height (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.218
+!MESSAGE AJC: woven class simulation.communication.Anemometer (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\simulation\communication\WeatherStationSimulator.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.227
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Pattern.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.228
+!MESSAGE AJC: woven class universe.Pattern (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Pattern.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.232
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\RequestReplyConversationJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.235
+!MESSAGE AJC: woven class joinpoints.communication.RequestReplyConversationJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\RequestReplyConversationJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.239
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\State.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.240
+!MESSAGE AJC: woven class utilities.statemachine.State (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\State.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.242
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\IStateMachine.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.243
+!MESSAGE AJC: woven class utilities.statemachine.IStateMachine (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\IStateMachine.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.245
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\MessageType.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.246
+!MESSAGE AJC: woven class universe.MessageType (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\MessageType.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.249
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\ReceiveEventJP.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.251
+!MESSAGE AJC: woven class joinpoints.communication.ReceiveEventJP (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\joinpoints\communication\ReceiveEventJP.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.252
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\PatternManager.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.253
+!MESSAGE AJC: woven class universe.PatternManager (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\PatternManager.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.257
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Session.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.258
+!MESSAGE AJC: woven class utilities.Session (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\Session.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.261
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyResponse.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.262
+!MESSAGE AJC: woven class aspects.encyption.KeyResponse (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\KeyResponse.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.269
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataReading.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.272
+!MESSAGE AJC: woven class utilities.messages.WeatherDataReading (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataReading.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.276
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Timestamp.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.278
+!MESSAGE AJC: woven class universe.Timestamp (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Timestamp.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.279
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\OtherEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.280
+!MESSAGE AJC: woven class universe.OtherEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\OtherEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.282
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Process.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.283
+!MESSAGE AJC: woven class universe.Process (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Process.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.287
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\ProtocolRole.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.288
+!MESSAGE AJC: woven class universe.ProtocolRole (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\ProtocolRole.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.290
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Role.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.292
+!MESSAGE AJC: woven class universe.Role (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\Role.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.304
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\interactive\Server.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.324
+!MESSAGE AJC: woven class interactive.Server (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\interactive\Server.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.326
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\ExceptionThrownEvent.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.326
+!MESSAGE AJC: woven class universe.ExceptionThrownEvent (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\universe\ExceptionThrownEvent.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.330
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\Transition.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.332
+!MESSAGE AJC: woven class utilities.statemachine.Transition (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\statemachine\Transition.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.336
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataVector.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.337
+!MESSAGE AJC: woven class utilities.messages.WeatherDataVector (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataVector.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.338
+!MESSAGE AJC: woven class utilities.messages.WeatherDataVector$ObservationType (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataVector.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.339
+!MESSAGE AJC: woven class utilities.messages.WeatherDataVector$LocType (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\utilities\messages\WeatherDataVector.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.351
+!MESSAGE AJC: compiled: C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Encryption.java
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.354
+!MESSAGE AJC: woven class aspects.encyption.Encryption (from C:\ALI-RAZA-EXP\005\Phase 1\Activity 2\Code\WeatherSimulator\src\aspects\encyption\Encryption.java)
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.356
+!MESSAGE AJC: Build finished. Was full build: true
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.356
+!MESSAGE Timer event: 1219ms: Total time spent in AJDE
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.357
+!MESSAGE Timer event: 0ms: Refresh after build
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 17:50:53.370
+!MESSAGE Timer event: 1242ms: Total time spent in AJBuilder.build()
+!SESSION 2013-12-18 18:01:49.368 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-18 18:02:03.167
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-12-18 18:02:03.168
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Quentin Mayo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.738
+!MESSAGE Compiler configuration for project WeatherSimulator doesn't know previous state, so assuming EVERYTHING has changed.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.802
+!MESSAGE ===========================================================================================
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.802
+!MESSAGE Build kind = AUTOBUILD
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.812
+!MESSAGE Project=WeatherSimulator, kind of build requested=Incremental AspectJ compilation
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.818
+!MESSAGE Timer event: 1ms: Flush included source file cache
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.819
+!MESSAGE Timer event: 1ms: Check delta
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.822
+!MESSAGE Timer event: 3ms: Looking for and marking configuration changes in WeatherSimulator
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.822
+!MESSAGE 	Configuration changes found: false
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.822
+!MESSAGE build: Examined delta - no source file or classpath changes for project WeatherSimulator
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.823
+!MESSAGE Compiler configuration for project WeatherSimulator has been read by compiler.  Resetting.
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.823
+!MESSAGE      Configuration was [PROJECTSOURCEFILES_CHANGED, JAVAOPTIONS_CHANGED, ASPECTPATH_CHANGED, CLASSPATH_CHANGED, INPATH_CHANGED, NONSTANDARDOPTIONS_CHANGED, OUTJAR_CHANGED, PROJECTSOURCERESOURCES_CHANGED, OUTPUTDESTINATIONS_CHANGED, INJARS_CHANGED]
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.823
+!MESSAGE Resetting list of modified source files.  Was null
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.826
+!MESSAGE Timer event: 7ms: Look for source/resource changes
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.827
+!MESSAGE No source/resource changes found, exiting build
+
+!ENTRY org.eclipse.ajdt.core 1 0 2013-12-18 18:02:07.827
+!MESSAGE Timer event: 25ms: Total time spent in AJBuilder.build()

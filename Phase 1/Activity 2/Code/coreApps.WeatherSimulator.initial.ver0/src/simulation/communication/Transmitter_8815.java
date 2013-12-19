@@ -63,7 +63,7 @@ public class Transmitter_8815 extends Thread {
 			dgc = DatagramChannel.open();
 			try {
 				logger.debug("Binding Server Socket to port " + PortNo);
-				dgc.socket().bind(new InetSocketAddress("localhost", PortNo));
+				dgc.bind(new InetSocketAddress("localhost", PortNo));
 				sckt_manager = SelectorProvider.provider().openSelector();
 				dgc.configureBlocking(false);
 
@@ -140,7 +140,7 @@ public class Transmitter_8815 extends Thread {
 		byte[] bytes = new byte[buffer.remaining()];
 		buffer.get(bytes);
 		if (bytes.length > 0) {
-			message = Encoder.decode(bytes);
+			message = (Message) Encoder.decode(bytes);
 			buffer.clear();
 			buffer = ByteBuffer.wrap(Encoder.encode(message));
 		}

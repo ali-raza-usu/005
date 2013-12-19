@@ -1,0 +1,362 @@
+12:23:07,563 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:07,640 DEBUG Transmitter_8815.java: 207 -  setting protocol null
+12:23:07,640 DEBUG Transmitter_8815.java: 209 -  setting role null
+12:23:07,647 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,701 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,756 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,809 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,864 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,918 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:07,972 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:08,036 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,037 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,037 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@68003589
+12:23:08,067 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,067 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,067 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@29444c60
+12:23:08,169 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,169 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,170 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@43bec5d0
+12:23:08,179 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,179 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,180 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@292a74d5
+12:23:08,293 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,293 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,294 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7729617b
+12:23:08,297 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,297 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,297 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@617e8a35
+12:23:08,364 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:08,364 DEBUG Receiver.java: 209 -  setting role null
+12:23:08,365 DEBUG Receiver.java: 21112:23:08,366 DEBUG MessageJoinPointTracker.aj: 110 - rema12:23:08,389 DEBUG Re12:23:08,391 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,475 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,506 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,621 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,643 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,653 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,697 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,718 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,790 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:08,856 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,103 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,109 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,120 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,143 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,186 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,230 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,293 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,455 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,506 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,532 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,565 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,613 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,616 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,724 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,766 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,893 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,946 DEBUG Transmitter_8815.java: 207 -  setting protocol null
+12:23:09,946 DEBUG Transmitter_8815.java: 209 -  setting role null
+12:23:09,947 DEBUG Transmitter_8815.java: 211 -  setting protocolRole universe.ProtocolRole@1f70f15e
+12:23:09,952 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,969 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:09,984 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,049 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,196 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,241 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,243 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,280 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,384 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,396 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,398 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,401 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,603 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,634 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,653 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,707 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,743 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,770 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,826 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,828 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:10,992 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,070 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,073 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,110 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,204 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,218 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,220 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,222 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,346 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,423 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,493 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,523 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,536 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,612 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,618 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,694 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,800 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,852 DEBUG Transmitter_8815.java: 207 -  setting protocol null
+12:23:11,852 DEBUG Transmitter_8815.java: 209 -  setting role null
+12:23:11,852 DEBUG Transmitter_8815.java: 211 -  setting protocolRole universe.ProtocolRole@57279d82
+12:23:11,866 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,914 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:11,957 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,009 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,019 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,073 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,094 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,196 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,198 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+12:23:12,260 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 504
+Receiver.java: 207 -  setting protocol null
+12:23:09,982 DEBUG Receiver.java: 209 -  setting role null
+12:23:09,982 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@1762d74e
+12:23:10,047 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,047 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,047 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@173130a9
+12:23:10,194 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,194 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,194 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@65861e41
+12:23:10,239 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,239 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,240 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@145a96f8
+12:23:10,242 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,242 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,242 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@76a11b29
+12:23:10,278 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,278 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,278 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@5de0034
+12:23:10,382 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,382 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,382 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7506c77f
+12:23:10,394 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,394 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,394 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@60051f44
+12:23:10,397 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,397 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,397 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@74f49268
+12:23:10,399 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,399 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,399 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7cb09ddb
+12:23:10,601 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,601 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,601 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@65ab90e2
+12:23:10,631 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,631 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,631 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@6f6e5e75
+12:23:10,651 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,651 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,651 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@685794b3
+12:23:10,705 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,705 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,705 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@b93f45a
+12:23:10,741 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,741 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,741 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@5e8ce525
+12:23:10,768 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,768 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,768 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@1eaff1e8
+12:23:10,824 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,824 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,824 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@25b7715d
+12:23:10,826 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,827 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,827 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2ccd7880
+12:23:10,990 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:10,990 DEBUG Receiver.java: 209 -  setting role null
+12:23:10,990 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4395cbcb
+12:23:11,068 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,068 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,068 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@220a44bf
+12:23:11,072 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,072 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,072 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@a6a2534
+12:23:11,108 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,108 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,108 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@43c332b8
+12:23:11,202 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,202 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,202 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@68bd9607
+12:23:11,216 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,216 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,216 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@476127f4
+12:23:11,218 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,218 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,219 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@3d5546c3
+12:23:11,220 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,221 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,221 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@620e1503
+12:23:11,344 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,344 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,344 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@3a2f4ac0
+12:23:11,421 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,421 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,422 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7491616e
+12:23:11,491 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,491 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,491 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@374b003e
+12:23:11,521 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,521 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,521 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@747fb9e1
+12:23:11,534 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,534 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,534 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7fcaa2ba
+12:23:11,610 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,610 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,611 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@1fd9e040
+12:23:11,616 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,616 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,616 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2ea6e962
+12:23:11,692 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,692 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,692 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@372b51d4
+12:23:11,798 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,798 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,798 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@46b4ece3
+12:23:11,854 DEBUG MessageJoinPointTracker.aj: 110 - remaining bytes are 1464
+12:23:11,864 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,864 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,864 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@52fc7db
+12:23:11,912 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,912 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,912 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@3589193f
+12:23:11,955 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:11,955 DEBUG Receiver.java: 209 -  setting role null
+12:23:11,955 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@37f12d4f
+12:23:12,007 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,007 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,007 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@db75080
+12:23:12,017 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,017 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,017 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@32b7e05f
+12:23:12,071 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,071 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,071 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@6c15f918
+12:23:12,093 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,093 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,093 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7629a4cb
+12:23:12,194 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,194 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,195 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@78578f77
+12:23:12,196 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,197 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,197 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@734ee775
+12:23:12,258 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,258 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,258 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@91151ba
+12:23:12,333 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,333 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,334 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7310860e
+12:23:12,336 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,336 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,336 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4ccd37f3
+12:23:12,399 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,399 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,399 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@48a0c533
+12:23:12,404 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,404 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,404 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@606a1ca2
+12:23:12,426 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,426 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,426 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@8870aad
+12:23:12,476 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,476 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,476 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@5d0a70af
+12:23:12,615 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,615 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,616 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@41494678
+12:23:12,624 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,624 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,624 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4f62cf6a
+12:23:12,662 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,662 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,662 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@92e22ed
+12:23:12,664 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,664 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,665 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@344c963c
+12:23:12,717 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,717 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,718 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@49cf882
+12:23:12,728 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,728 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,728 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@49869a03
+12:23:12,782 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,782 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,782 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2a8fe392
+12:23:12,881 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,881 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,881 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@60620f9c
+12:23:12,892 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,892 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,892 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2ac79769
+12:23:12,931 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,931 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,931 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@106305aa
+12:23:12,979 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:12,979 DEBUG Receiver.java: 209 -  setting role null
+12:23:12,979 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2f5ca208
+12:23:13,059 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,059 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,059 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2a8820fa
+12:23:13,102 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,102 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,102 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@59d57c39
+12:23:13,123 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,123 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,123 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7484c2bf
+12:23:13,137 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,137 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,138 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@272d0e49
+12:23:13,163 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,163 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,163 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@1ac7b077
+12:23:13,289 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,289 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,289 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@3c6c3450
+12:23:13,292 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,292 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,292 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7baedd0d
+12:23:13,301 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,301 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,301 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@367cb9ff
+12:23:13,329 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,329 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,329 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@60f17a2f
+12:23:13,494 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,494 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,494 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@71218cf
+12:23:13,514 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,514 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,514 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7c5223f7
+12:23:13,537 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,537 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,537 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7dadd4d8
+12:23:13,589 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,589 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,589 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@12da876
+12:23:13,601 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,601 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,601 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7ff87852
+12:23:13,663 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,663 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,663 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7c101ac
+12:23:13,702 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,702 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,702 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2a9d1058
+12:23:13,707 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,707 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,707 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4c8868b9
+12:23:13,791 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,791 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,791 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@4e58c0be
+12:23:13,826 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,826 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,826 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@2914b988
+12:23:13,898 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,898 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,898 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@1faccfb7
+12:23:13,912 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,912 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,912 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7399ae79
+12:23:13,941 DEBUG Receiver.java: 207 -  setting protocol null
+12:23:13,941 DEBUG Receiver.java: 209 -  setting role null
+12:23:13,941 DEBUG Receiver.java: 211 -  setting protocolRole universe.ProtocolRole@7281205b

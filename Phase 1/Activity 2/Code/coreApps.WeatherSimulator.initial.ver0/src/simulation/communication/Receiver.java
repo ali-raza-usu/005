@@ -59,6 +59,7 @@ public class Receiver extends Thread {
 
 			dc = DatagramChannel.open();
 			dc.configureBlocking(false);
+			dc.bind(new InetSocketAddress("localhost", 8817));
 			srcAddr = new InetSocketAddress("localhost", port);
 
 			Message _message = new WeatherDataRequest();
@@ -179,7 +180,7 @@ public class Receiver extends Thread {
 		byte[] bytes = new byte[buffer.remaining()];
 		buffer.get(bytes);
 		if (bytes.length > 0) {
-			message = Encoder.decode(bytes);
+			message = (Message) Encoder.decode(bytes);
 			buffer.clear();
 			buffer = ByteBuffer.wrap(Encoder.encode(message));
 		}
