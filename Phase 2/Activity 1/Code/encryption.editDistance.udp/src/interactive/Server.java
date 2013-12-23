@@ -51,6 +51,7 @@ public class Server extends Thread{
               try{   
                 //Establishing New Channel
             	dgc.bind(new InetSocketAddress("localhost",8899)); 
+            	_logger.debug("Server successfully binds to a port ");
                 sckt_manager=SelectorProvider.provider().openSelector();
                 dgc.configureBlocking(false);   
                 DatagramChannel client = null;
@@ -78,37 +79,35 @@ public class Server extends Thread{
 	             			
 	             			
 	             			//New Input Message
-	             			TranslationResponseMessage resmsg = null;
+	             			TranslationRequestMessage request = null;
 	             			
 	             			
 	             			if(buffer.hasRemaining()){
-	             				resmsg = (TranslationResponseMessage)convertBufferToMessage(buffer);
-	             				_logger.debug("Received " + ((TranslationResponseMessage) resmsg).getResponse());
-	             				if(resmsg.getResponse().equals("quit")){
-	             					_logger.debug("Now disconnecting the client");
-	                       			client.close();
-	                       			return;
-	             				}           
+	             				request = (TranslationRequestMessage)convertBufferToMessage(buffer);
+	             				_logger.debug("Received " + request);
+	             				if (request.getData1().equals("quit")) {
+									_logger.debug("Now disconnecting the client");
+									client.close();
+									return;
+								}
          				    int num = 1 + (int)(Math.random() * ((1 - 4) + 1));
          				    Thread.sleep(num*200);
          				  
-         				    TranslationRequestMessage reqmsg = null ;
-         				
-							String str1 = reqmsg.getData1();
-         				    String str2 = reqmsg.getData2();
+							String str1 = request.getData1();
+         				    String str2 = request.getData2();
          				    
          				    int result = LevenshteinDistance(str1, str2);
-         				    TranslationResponseMessage resmsg1 = new TranslationResponseMessage("Levenshtein Distance between string : " + str1+ " and string "+ str2 + " is "+ result);
+         				    TranslationResponseMessage response = new TranslationResponseMessage("Levenshtein Distance between string : " + str1+ " and string "+ str2 + " is "+ result);
              				buffer.clear();
-             				buffer = ByteBuffer.wrap(Encoder.encode(resmsg1));   
+             				buffer = ByteBuffer.wrap(Encoder.encode(response));   
              				//=============================
     		        		client.send(buffer, destAddr); 
     		        		//=============================
-    		        		_logger.debug("Sending " + resmsg.getResponse());
-    		        		if(reqmsg.getData1().equals("quit") || reqmsg.getData1().equals("quit")){
-                       			client.close();
-                       			return;
-             				}
+    		        		_logger.debug("Sending " + response.getResponse());
+    		        		if (request.getData1().equals("quit")|| request.getData2().equals("quit")) {
+								client.close();
+								return;
+							}
 	             		 }//buffer.hasRemaining
              			} 
                       }
@@ -139,11 +138,11 @@ public class Server extends Thread{
         }    
     }
 
-    private TranslationResponseMessage convertBufferToMessage(ByteBuffer buffer) {
-    	 TranslationResponseMessage message = null;					
+    private Message convertBufferToMessage(ByteBuffer buffer) {
+    	 Message message = null;					
 		 byte[] bytes = new byte[buffer.remaining()];
 		 buffer.get(bytes);
-		 message = (TranslationResponseMessage) Encoder.decode(bytes);
+		 message = (Message) Encoder.decode(bytes);
 		 buffer.clear();
 		 buffer = ByteBuffer.wrap(Encoder.encode(message));  		
 		 return message;

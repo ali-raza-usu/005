@@ -63,7 +63,7 @@ public class Transmitter_8815 extends Thread {
 			dgc = DatagramChannel.open();
 			try {
 				logger.debug("Binding Server Socket to port " + PortNo);
-				dgc.socket().bind(new InetSocketAddress("localhost", PortNo));
+				dgc.bind(new InetSocketAddress("localhost", PortNo));
 				sckt_manager = SelectorProvider.provider().openSelector();
 				dgc.configureBlocking(false);
 

@@ -17,7 +17,7 @@ public aspect LoggingListenerTime extends CompleteConnectionAspect
 
 		KMClient km_client = new KMClient();
 		km_client.connectToServer();
-		km_client.sendMessage(new KeyRequest(Server.class.getSimpleName(),"abcde"));
+		km_client.sendMessage(new KeyRequest("user","abcde"));
 		try 
 		{
 			KeyResponse resp = (KeyResponse) km_client.receiveMessage();

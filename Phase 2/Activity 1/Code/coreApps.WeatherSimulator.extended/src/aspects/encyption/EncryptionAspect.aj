@@ -10,7 +10,7 @@ import utilities.Encoder;
 import utilities.IMessage;
 import utilities.Message;
 import baseaspects.communication.OneWaySendAspect;
-import interactive.Client;
+
 
 public aspect EncryptionAspect extends OneWaySendAspect
 {

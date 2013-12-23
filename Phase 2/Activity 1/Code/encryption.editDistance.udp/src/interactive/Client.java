@@ -30,7 +30,7 @@ public class Client extends Thread
        String _data1 = null;
        String _data2 = null;
        DatagramChannel dc = null;
-       TranslationRequestMessage reqmsg;
+     
         try
         { 
         	//Connecting to Server
@@ -60,7 +60,7 @@ public class Client extends Thread
             				{
             					
             					
-            					reqmsg = new TranslationRequestMessage(_data1, _data2);
+            					Message reqmsg = new TranslationRequestMessage(_data1, _data2);
             					
             					
             					
@@ -68,8 +68,8 @@ public class Client extends Thread
 	            				//=================================
 	            				dc.send(buffer, srcAddr);
 	            				//=================================
-	            	    		_logger.debug("Sending strings '" + reqmsg.getData1()+ "' and '"+reqmsg.getData2()+"'");     
-	            	    		if(reqmsg.getData1().equals("quit") || reqmsg.getData2().equals("quit")){
+	            	    		_logger.debug("Sending strings '" + ((TranslationRequestMessage) reqmsg).getData1()+ "' and '"+((TranslationRequestMessage) reqmsg).getData2()+"'");     
+	            	    		if(((TranslationRequestMessage) reqmsg).getData1().equals("quit") || ((TranslationRequestMessage) reqmsg).getData2().equals("quit")){
 	                       			dc.close();
 	                       			return;
 	             				}
@@ -140,7 +140,7 @@ public class Client extends Thread
     	 Message message = null;					
 		 byte[] bytes = new byte[buffer.remaining()];
 		 buffer.get(bytes);
-		 message = (TranslationRequestMessage) Encoder.decode(bytes);
+		 message = (Message) Encoder.decode(bytes);
 		 buffer.clear();
 		 buffer = ByteBuffer.wrap(Encoder.encode(message));  		
 		 return message;

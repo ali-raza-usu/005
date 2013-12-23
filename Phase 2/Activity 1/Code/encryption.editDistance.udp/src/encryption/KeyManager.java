@@ -14,7 +14,7 @@ import org.junit.Test;
 
 public class KeyManager implements Runnable {
 
-	private Logger _logger = Logger.getLogger(KeyManager.class);
+	private static Logger _logger = Logger.getLogger(KeyManager.class);
 	Encryption encyption = Encryption.getInstance();
 	private HashMap<String, String> processList = new HashMap<String, String>();
 	private boolean isAlive = true;
@@ -30,13 +30,14 @@ public class KeyManager implements Runnable {
 	private ServerSocket serverSocket = null;
 
 	public KeyManager() {
-		processList.put("Server", "abcde");
-		processList.put("Client", "abcdef");
+		processList.put("user","abcde");
 	}
 
 	public static void main(String[] args) throws IOException {
+		
 		Thread server = new Thread(new KeyManager());
 		server.start();
+		_logger.debug("Key Manager Started ");
 	}
 
 	public void extablishConnection() throws IOException {

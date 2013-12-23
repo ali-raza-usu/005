@@ -70,6 +70,7 @@ public class Receiver extends Thread {
 		try {
 			dc = DatagramChannel.open();
 			dc.configureBlocking(false);
+			dc.bind(new InetSocketAddress("localhost", 8817));
 			srcAddr[0] = new InetSocketAddress("localhost", portOne);// To send request to Transmitter1
 			srcAddr[1] = new InetSocketAddress("localhost", portTwo);// To send request to Transmitter2
 			ByteBuffer buffer = ByteBuffer.wrap(Encoder.encode(new WeatherDataRequest(RequestType.SEND)));
