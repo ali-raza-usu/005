@@ -1,0 +1,10 @@
+12:03:57,311 ERROR Server.java: 137 - java.lang.NullPointerException
+	at aspects.encyption.KMClient.sendMessage(KMClient.java:64)
+	at aspects.encyption.LoggingListenerTime.ajc$around$aspects_encyption_LoggingListenerTime$1$ab9bbcb0(LoggingListenerTime.aj:36)
+	at baseaspects.connection.CompleteConnectionAspect.BeginOnListner(CompleteConnectionAspect.aj:75)
+	at baseaspects.connection.CompleteConnectionAspect.ajc$around$baseaspects_connection_CompleteConnectionAspect$2$f4805bf8(CompleteConnectionAspect.aj:43)
+	at joinpointracker.ListenerJoinPointTracker.ChannelAccept(ListenerJoinPointTracker.aj:95)
+	at interactive.Server.bind_aroundBody1$advice(Server.java:72)
+	at interactive.Server.coreServer(Server.java:53)
+	at interactive.Server.run(Server.java:34)
+

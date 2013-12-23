@@ -74,7 +74,7 @@ public class Receiver extends Thread {
 			srcAddr[1] = new InetSocketAddress("localhost", portTwo);// To send request to Transmitter2
 			ByteBuffer buffer = ByteBuffer.wrap(Encoder.encode(new WeatherDataRequest(RequestType.SEND)));
 			dc.send(buffer, srcAddr[0]);
-			// logger.debug("Sending request for Transmitter 1");
+			//logger.debug("Sending request for Transmitter 1");
 			buffer = ByteBuffer.wrap(Encoder.encode(new WeatherDataRequest(RequestType.SEND)));
 			dc.send(buffer, srcAddr[1]);
 			// logger.debug("Sending request for Transmitter 2");
